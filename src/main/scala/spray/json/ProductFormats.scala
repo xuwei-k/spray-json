@@ -19,6 +19,7 @@ package spray.json
 import java.lang.reflect.Modifier
 import scala.annotation.tailrec
 import scala.util.control.NonFatal
+import scala.reflect.ClassManifest
 
 /**
  * Provides the helpers for constructing custom JsonFormat implementations for types implementing the Product trait
